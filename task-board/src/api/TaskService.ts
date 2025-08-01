@@ -10,7 +10,7 @@ export const updateTask = async (task: Task) => {
 
 export const getAllTask = async () => {
     try {
-        const response = await axios.get('./tasks');
+        const response = await axios.get('/tasks');
         return response.data;
 
     } 
